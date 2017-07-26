@@ -19,6 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.activity.MainTabActivity"/>
+        <activity android:name=".ui.activity.DaggerActivity"/>
+        <activity android:name=".ui.activity.TouchActivity"/>
     </application>
 
 </manifest>

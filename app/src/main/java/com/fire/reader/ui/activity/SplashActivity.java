@@ -48,7 +48,7 @@ public class SplashActivity extends AppCompatActivity {
     private synchronized void goHome() {
         if (!flag) {
             flag = true;
-            startActivity(new Intent(SplashActivity.this, MainTabActivity.class));
+            startActivity(new Intent(SplashActivity.this, TouchActivity.class));
             finish();
         }
     }
